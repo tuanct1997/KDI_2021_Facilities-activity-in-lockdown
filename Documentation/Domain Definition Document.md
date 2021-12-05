@@ -1,0 +1,13 @@
+# Project domain
+Covid-19 – the disease that changed the way humans will live forever. We could have never imagined a world where everything is closed, where we have to do everything from a distance, or a world where we only have anti-social interactions. Throughout history, mankind has never had to face this kind of crisis. We have never been prepared for this situation. At this time of crisis, mankind feels confused and doesn’t know how to deal with the pandemic while improving the economy. So, this project’s been created to analyze the pandemic’s life, specially in Trento. With this study we hope we can explore different aspects of our pandemic’s life so from that, mankind could be well prepared if we ever face this situation once again. For the scope of the project, we consider the Trento city’s facilities as an environment where we can integrate heterogeneous data about the university students’ behavior during the lockdown period caused by the Covid-19 pandemic. This project focuses on the facilities’ point of view in order to analyze all the relevant Domain of Interest (DOI).
+# Purpose
+Our project goal is to study and analyze students’ behavior, the main focus is on the location and movement of students in order to generate a heatmap and to create an average person profile for specific Points of Interest.
+
+# Personas
+|Name|Age|Interests|Usage|Description|
+|---|---|------|------|------|
+|Marco|39|Jogging, Gym|He wants to profile his customers to have a clear picture of the pandemic environment and how it is affecting his business. From that, he can find a way to make his shop more appealing to the public. | a shop owner in the city of Trento|
+|Sara|28|Chess, Watching TV series|She is interested in analyzing the behavior of students throughout the year to discover interesting and unusual patterns. |a sociology researcher in Trento.|
+|Luca|30|Trekking, Football, Tennis|He wants to monitor the movement of students to find out the most crowded places during the day and evening in order to apply necessary measures if needed to prevent the outbreak of Covid-19| a public administration employee.|
+|Angela|25|Cooking, Gym| She wants to understand which are the most popular facilities and areas of the city, at different times throughout the day. Depending on what she finds out she may request the addition of bus/train rides. |an employee of a public transport company in Trento.|
+|Chi|35|Computer Games, Reading, Model Collecting|She wants to know the quality of networks around this city, from which she may suggest to the headquarter to improve the network station at that place in order to please the customer.|An employee at R&D department of a network provider company in Italy. |
