@@ -1,0 +1,77 @@
+@prefix :      <https://www.epos-eu.org/epos-dcat-ap#> .
+@prefix schema: <http://schema.org/> .
+@prefix spdx:  <http://spdx.org/rdf/terms#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix gsp:   <http://www.opengis.net/ont/geosparql#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix hydra: <http://www.w3.org/ns/hydra/core#> .
+@prefix geo:   <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix oa:    <http://www.w3.org/ns/oa#> .
+@prefix dct:   <http://purl.org/dc/terms/> .
+@prefix sh:    <http://www.w3.org/ns/shacl#> .
+@prefix dcat:  <http://www.w3.org/ns/dcat#> .
+@prefix locn:  <http://www.w3.org/ns/locn#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix epos:  <https://www.epos-eu.org/epos-dcat-ap#> .
+@prefix adms:  <http://www.w3.org/ns/adms#> .
+@prefix org:   <http://www.w3.org/ns/org#> .
+@prefix cnt:   <http://www.w3.org/2011/content#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix http:  <http://www.w3.org/2006/http#> .
+@prefix dash:  <http://datashapes.org/dash#> .
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+
+<https://www.epos-eu.org/epos-dcat-ap#Concept/cfa86eb3-107d-4337-adfd-e2cb31cad01d>
+        rdf:type         skos:Concept ;
+        skos:definition  "POI location by the code of OpenStreetMap" ;
+        skos:inScheme    <https://www.epos-eu.org/epos-dcat-ap#ConceptScheme/ce855c36-4c63-4e32-b289-7dd4edf6deb6> ;
+        skos:prefLabel   "POI" .
+
+<https://www.epos-eu.org/epos-dcat-ap#ConceptScheme/ce855c36-4c63-4e32-b289-7dd4edf6deb6>
+        rdf:type         skos:ConceptScheme ;
+        dct:description  "Location" ;
+        dct:title        "location" .
+
+<https://www.epos-eu.org/epos-dcat-ap#Dataset/b81071af-bec0-4030-8c65-4d6af9948b6c>
+        rdf:type         dcat:Dataset ;
+        owl:versionInfo  "v0.r1" ;
+        dcat:theme       <https://www.epos-eu.org/epos-dcat-ap#Concept/0774415a-60b5-4632-a2ec-669790db4a98> , <https://www.epos-eu.org/epos-dcat-ap#Concept/379f9ad9-89d8-45fa-8bf3-97e1869a6ace> , <https://www.epos-eu.org/epos-dcat-ap#Concept/33024ff6-a3e2-45a7-aedd-356fa2b999d4> , <https://www.epos-eu.org/epos-dcat-ap#Concept/cfa86eb3-107d-4337-adfd-e2cb31cad01d> .
+
+<https://www.epos-eu.org/epos-dcat-ap#Concept/33024ff6-a3e2-45a7-aedd-356fa2b999d4>
+        rdf:type         skos:Concept ;
+        skos:definition  "Detail location define by GPS in term of lattitude, longitude and attitude" ;
+        skos:inScheme    <https://www.epos-eu.org/epos-dcat-ap#ConceptScheme/ce855c36-4c63-4e32-b289-7dd4edf6deb6> ;
+        skos:prefLabel   "GPS location" .
+
+<https://www.epos-eu.org/epos-dcat-ap#ContactPoint/409df934-e679-43a1-b36c-b5e5b5440bdc>
+        rdf:type            schema:ContactPoint ;
+        schema:contactType  "Researcher\t" ;
+        schema:email        "matteo.busso@unitn.it" .
+
+<https://www.epos-eu.org/epos-dcat-ap#Concept/379f9ad9-89d8-45fa-8bf3-97e1869a6ace>
+        rdf:type         skos:Concept ;
+        skos:definition  "Aproximate location with time series" ;
+        skos:inScheme    <https://www.epos-eu.org/epos-dcat-ap#ConceptScheme/ce855c36-4c63-4e32-b289-7dd4edf6deb6> ;
+        skos:prefLabel   "approximate location" .
+
+<https://www.epos-eu.org/epos-dcat-ap#ConceptScheme/5bab2fb9-ba35-43e9-91a1-fadf74746320>
+        rdf:type         skos:ConceptScheme ;
+        dct:description  "Background information of candidate in the experiment during the lockdown period in Trento" ;
+        dct:title        "questionaire" .
+
+<https://www.epos-eu.org/epos-dcat-ap#Location/4dbeb220-2748-47ef-b35c-c22109ee5b6d>
+        rdf:type  dct:Location .
+
+<https://www.epos-eu.org/epos-dcat-ap#Concept/0774415a-60b5-4632-a2ec-669790db4a98>
+        rdf:type         skos:Concept ;
+        skos:definition  "Information of candidate in the experience" ;
+        skos:inScheme    <https://www.epos-eu.org/epos-dcat-ap#ConceptScheme/5bab2fb9-ba35-43e9-91a1-fadf74746320> ;
+        skos:prefLabel   "candidate" .
+
+<https://www.epos-eu.org/epos-dcat-ap#Organization/2e5a6331-59a5-40fa-87e9-509f839c8d46>
+        rdf:type           schema:Organization ;
+        schema:identifier  "http://knowdive.disi.unitn.it"^^xsd:anyURI ;
+        schema:legalName   "Knowdive Research group" .
